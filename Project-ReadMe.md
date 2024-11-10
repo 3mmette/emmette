@@ -30,4 +30,11 @@
     Sample project page.
 
 ## User Interface
-    Colour scheme with a max of 4 additional colour other than black and white.
+    Colour Scheme
+| Name      | RGB            | HEX      |
+|-----------|----------------|----------|
+| black     | 0, 0, 0        | #000000  |
+| white     | 255, 255, 255  | #FFFFFF  |
+| gray-200  | 229, 231, 235  | #E5E7EB  |
+| grey-300  | 209, 213, 219  | #D1D5DB  |
+| sky-200   | 186, 230, 253  | #BAE6FD  |
