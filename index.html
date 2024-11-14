@@ -8,83 +8,103 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/site.css">
 </head>
-<body>
+<body class="border-gray-200 border-2 m-16 p-4">
     <header>
-        <div>
-            <h1>EMMETTE TAYLOR</h1>
-        </div>
+        <h1 class="text-center text-4xl font-semibold pt-12 pb-8">EMMETTE TAYLOR</h1>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Sample</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="flex justify-center space-x-4 text-2xl list-none">
+                <li><a class="px-2 py-1 text-black hover:text-black border-b-2 border-gray-300"
+                    href="#">Home</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300" 
+                    href="#">About</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
+                    href="#">Projects</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
+                    href="#">Sample</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
+                    href="#">Resume</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
+                    href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <Main>
-        <img src="#" alt="Placeholder">
-        <section>
-            <h2>About me</h2>
-            <p>This is about me</p>
-            <a href="#">Read full about me</a>
+        <img class="mx-auto w-1/2 pt-10 pb-4" src="assets/img/Placeholder.png" alt="Placeholder">
+        <section class="text-xl">
+            <p  class="mx-auto w-3/4">This is about me</p>
+            <a class="mx-auto w-4/5 block text-blue-400" href="#">View full about me.</a>
         </section>
-        <section>
-            <h2>Resume</h2>
-            <p>Top things to know about my resume</p>
-            <a href="#">See full resume</a>
+        <section class="text-lg pt-12">
+            <hr class="mx-auto w-3/4 my-2 border-gray-200">
+            <article class="flex justify-evenly items-center mx-auto w-4/5">
+                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">Special Operations Group Officer</p>
+                <p class="flex-1 p-2 text-center">Department of Corrective Services</p>
+                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">April 2024 - Present</p>
+            </article>
+            <hr class="mx-auto w-3/4 my-2 border-gray-200">
+            <article class="flex justify-evenly items-center mx-auto w-4/5">
+                <ul class="flex-1 border-l-2 border-r-2 pl-2">
+                    <li>Certificate IV in Information Technology</li>
+                    <li>Google Data Analytics Professional Certificate</li>
+                    <li>Diploma of Leadership and Management</li>
+                    <li>Diploma of Security Risk Management</li>
+                </ul>
+                <ul class="flex-1 border-r-2 pl-2">
+                    <li>SOG Selection Course - Student to Merit</li>
+                    <li>ADF Senior Leader Course - Student to Merit</li>
+                    <li>ADF Junior Leader Course - Best Instructor</li>
+                    <li>ADF Junior Leader Course - Student to Merit</li>
+                </ul>
+            </article>
+            <hr class="mx-auto w-3/4 my-2 border-gray-200">
+            <a class="mx-auto w-4/5 block text-xl text-blue-400 " href="#">View full resume.</a>
         </section>
-        <section>
-            <a href="#">
-                <h3>Hangman</h3>
-                <img src="" alt="Hangman Game Image">
-                <p>Description</p>
-            </a>
-            <a href="#">
-                <h3>The Island</h3>
-                <img src="" alt="The Island Game Image">
-                <p>Description</p>
-            </a>
-            <a href="#">
-                <h3>The Weather App</h3>
-                <img src="" alt="The Weather Application Image">
-                <p>Description</p>
-            </a>
-            <a href="#">
-                <h3>Taylor'd Auto Traders</h3>
-                <img src="" alt="Taylor'd Auto Traders Image">
-                <p>Description</p>
-            </a>
-            <a href="#">
-                <h3>Metiorite Finder</h3>
-                <img src="" alt="Metiorite Finder Image">
-                <p>Description</p>
-            </a>
-            <a href="#">
-                <h3>BellaBeats Case Study</h3>
-                <img src="" alt="BellaBeats Case Study Image">
-                <p>Description</p>
-            </a>
+        <section class="mx-auto w-4/5 pt-12 text-xl">
+            <div class="grid grid-cols-3">
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">Hangman</h3>
+                    <img src="assets/img/Placeholder.png" alt="Hangman Game Image">
+                </a>
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">The Island</h3>
+                    <img src="assets/img/Placeholder.png" alt="The Island Game Image">
+                </a>
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">The Weather App</h3>
+                    <img src="assets/img/Placeholder.png" alt="The Weather Application Image">
+                </a>
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">Auto Traders</h3>
+                    <img src="assets/img/Placeholder.png" alt="Taylor'd Auto Traders Image">
+                </a>
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">Metiorite Finder</h3>
+                    <img src="assets/img/Placeholder.png" alt="Metiorite Finder Image">
+                </a>
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                    <h3 class="text-center">BellaBeats</h3>
+                    <img src="assets/img/Placeholder.png" alt="BellaBeats Case Study Image">
+                </a>
+            </div>
+            <a class="block text-xl text-blue-400" href="#">To view more, either click on a project or follow this link.</a>
         </section>
     </Main>
-    <footer>
+    <footer class="flex justify-between mx-auto w-4/5 pt-12 pb-12 text-xl">
         <p>&copy; 2024 Emmette Taylor</p>
-        <ul>
+        <ul class="flex flex-row space-x-2">
             <li>
-                <a>
-                    <img src="#" alt="X Logo">
+                <a href="https://x.com/3mmette">
+                    <img class="rounded-full w-8" src="assets/img/Placeholder.png" alt="X Logo">
                 </a>
             </li>
             <li>
-                <a>
-                    <img src="#" alt="LinkedIn Logo">
+                <a href="https://au.linkedin.com/in/emmette-taylor-237265227">
+                    <img class="rounded-full w-8" src="assets/img/Placeholder.png" alt="LinkedIn Logo">
                 </a>
             </li>
             <li>
-                <a>
-                    <img src="#" alt="Facebook Logo">
+                <a href="https://www.facebook.com/emmette.taylor.3">
+                    <img class="rounded-full w-8" src="assets/img/Placeholder.png" alt="Facebook Logo">
                 </a>
             </li>
         </ul>
