@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,30 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/site.css">
 </head>
+
 <body class="border-gray-200 border-2 m-24 p-4">
+    <!-- Constant Header -->
     <header>
-        <h1 class="text-center text-4xl font-semibold pt-12 pb-8">EMMETTE TAYLOR</h1>
+        <h1 class="text-center text-4xl font-semibold pt-24 pb-12">EMMETTE TAYLOR</h1>
         <nav>
             <ul class="flex justify-center space-x-4 text-2xl list-none">
-                <li><a class="px-2 py-1 text-black hover:text-black border-b-2 border-gray-300"
-                    href="index.html">HOME</a></li>
-                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300" 
-                    href="about.html">ABOUT</a></li>
+                <li><a class="px-2 py-1 text-black border-b-2 border-gray-300" href="index.html">HOME</a></li>
                 <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
-                    href="projects.html">PROJECTS</a></li>
+                        href="about.html">ABOUT</a></li>
                 <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
-                    href="mywork.html">SAMPLE</a></li>
+                        href="projects.html">PROJECTS</a></li>
                 <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
-                    href="resume.html">RESUME</a></li>
+                        href="mywork.html">SAMPLE</a></li>
                 <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
-                    href="contact.html">CONTACT</a></li>
+                        href="resume.html">RESUME</a></li>
+                <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
+                        href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <Main>
         <img class="mx-auto w-1/2 pt-10 pb-4" src="assets/img/Placeholder.png" alt="Placeholder">
         <section class="text-xl">
-            <p  class="mx-auto w-3/4">This is about me</p>
+            <p class="mx-auto w-3/4">This is about me</p>
             <a class="mx-auto w-4/5 block text-blue-400" href="#">View full about me.</a>
         </section>
         <section class="text-lg pt-12">
@@ -39,15 +41,15 @@
             <article class="flex justify-evenly items-center mx-auto w-4/5">
                 <p class="flex-1 border-l-2 border-r-2 p-2 text-center">Special Operations Group Officer</p>
                 <p class="flex-1 p-2 text-center">Department of Corrective Services</p>
-                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">April 2024 - Present</p>
+                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">March 2024 - Present</p>
             </article>
             <hr class="mx-auto w-3/4 my-2 border-gray-200">
             <article class="flex justify-evenly items-center mx-auto w-4/5">
                 <ul class="flex-1 border-l-2 border-r-2 pl-2">
-                    <li>Certificate IV in Information Technology</li>
-                    <li>Google Data Analytics Professional Certificate</li>
                     <li>Diploma of Leadership and Management</li>
                     <li>Diploma of Security Risk Management</li>
+                    <li>Certificate IV in Information Technology</li>
+                    <li>Google Data Analytics Professional Certificate</li>
                 </ul>
                 <ul class="flex-1 border-r-2 pl-2">
                     <li>SOG Selection Course - Student to Merit</li>
@@ -60,33 +62,50 @@
             <a class="mx-auto w-4/5 block text-xl text-blue-400 " href="#">View full resume.</a>
         </section>
         <section class="mx-auto w-4/5 pt-12 text-xl">
-            <div class="grid grid-cols-3">
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
-                    <h3 class="text-center">Hangman</h3>
-                    <img src="assets/img/Placeholder.png" alt="Hangman Game Image">
+            <div class="grid grid-cols-2">
+                <!-- The Island Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#island">
+                    <h3 class="text-center">The Island - A text based adventure game</h3>
+                    <div>
+                        <img src="assets/img/island_1.png" alt="The Island Game Image">
+                    </div>
                 </a>
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
-                    <h3 class="text-center">The Island</h3>
-                    <img src="assets/img/Placeholder.png" alt="The Island Game Image">
+                <!-- BellaBeats Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#bellabeats">
+                    <h3 class="text-center">BellaBeats Case Study</h3>
+                    <div class="flex items-center justify-center">
+                        <img src="assets/img/bellabeats_1.png" alt="BellaBeats Case Study Image">
+                    </div>
                 </a>
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
+                <!-- The Weather App Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#weather">
                     <h3 class="text-center">The Weather App</h3>
-                    <img src="assets/img/Placeholder.png" alt="The Weather Application Image">
+                    <img src="assets/img/weather_1.jpg" alt="The Weather Application Image">
                 </a>
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
-                    <h3 class="text-center">Auto Traders</h3>
-                    <img src="assets/img/Placeholder.png" alt="Taylor'd Auto Traders Image">
+                <!-- Taylor'd Autotraderz' Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#autotrade">
+                    <h3 class="text-center">Taylor'd Autotraderz' WPF</h3>
+                    <img src="assets/img/auto_1.png" alt="Taylor'd Auto Traders Image">
                 </a>
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
-                    <h3 class="text-center">Metiorite Finder</h3>
-                    <img src="assets/img/Placeholder.png" alt="Metiorite Finder Image">
+                <!-- Hangman Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#hangman">
+                    <h3 class="text-center">Hangman - The Game</h3>
+                    <img src="assets/img/hangman_1.png" alt="Hangman Game Image">
                 </a>
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100" href="#">
-                    <h3 class="text-center">BellaBeats</h3>
-                    <img src="assets/img/Placeholder.png" alt="BellaBeats Case Study Image">
+                <!-- Meteorite Finder Project -->
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400" 
+                    href="projects.html#meteor">
+                    <h3 class="text-center">Metiorite Information and Finder</h3>
+                    <img src="assets/img/meteorite_1.png" alt="Metiorite Finder Image">
                 </a>
             </div>
-            <a class="block text-xl text-blue-400" href="#">To view more, either click on a project or follow this link.</a>
+            <a class="block text-xl text-blue-400" href="projects.html">To view more, either click on a project or
+                follow this link.</a>
         </section>
     </Main>
     <footer class="flex justify-between mx-auto w-4/5 pt-12 pb-12 text-xl">
