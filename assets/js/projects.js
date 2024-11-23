@@ -43,7 +43,7 @@ function collapseBellabeatsContent() {
     bellabeats.classList.add('hover:bg-blue-400')
     bellabeatsContent.classList.add('hidden')
     bellabeatsCollapse.classList.add('hidden')
-    bellabeatsButton.scrollIntoView
+    bellabeatsButton.scrollIntoView(true)
 }
 
 bellabeatsButton.addEventListener('click', toggleBellabeatsContent);
