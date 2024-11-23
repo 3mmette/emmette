@@ -31,136 +31,141 @@
         </nav>
     </header>
     <Main class="mx-auto w-2/3 pt-12">
-        <!-- The Island Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="island" class="text-center text-2xl"><strong>THE ISLAND</strong></h3>
-            <p>This project involved creating a vintage text-based adventure game set in a 2D grid world layout using
-                Python3 and an Object Orientated Programming design.</p>
-            <p>The game had to include:</p>
-            <ul class="list-disc pl-12">
-                <li>At least 10 locations, explorable and navigatable to using cardinal directions.</li>
-                <li>At least 3 non player characters that can be interacted with.</li>
-                <li>At least 10 interactive items, some being able to be picked up and stored in an inventory.</li>
-                <li>Conditional events that reaquire other actions to be taken or items to be used.</li>
-                <li>A file-based system to track visited locations using random access file operations</li>
-                <li>A goal to complete the game or potentially lose the game through incorrect actions.</li>
-                <li>Conditional events that reaquire other actions to be taken or items to be used.</li>
-            </ul>
-            <p>I also chose to include:</p>
-            <ul class="list-disc pl-12">
-                <li>Specialisations giving different perks.</li>
-                <li>An energy and hydration system to make players more deliberate with their movements.</li>
-            </ul>
-            <img class="w-full h-full p-2" src="assets/img/island_2.png" alt="The Island Game Image 2">
-            <p>If you would like to download and play the game for yourself,
-                <a class="text-blue-400" href="https://github.com/3mmette/TheIsland">CLICK HERE.</a>
-            </p>
-        </div>
         <!-- BellaBeats Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="bellabeats" class="text-center text-2xl"><strong>BELLABEATS CASE STUDY</strong></h3>
-            <p>This was the final project for the Google Data Analytics Professional Certificate. It involved data
-                analysis using SQL for database management and the R programming language to clean and visually explore
-                the data. It used a dataset from FitBit users that BellaBeats, a high-tech manufacturer of
-                health-focused products for women, wants to use to identify key insights and get a recommendation for
-                one
-                of their products and its future marketing.<br>Below are a few slides from the presentation.</p>
-            <img class="w-full h-full p-2" src="assets/img/bellabeats_2.png" alt="BellaBeats Image 2">
-            <img class="w-full h-full p-2" src="assets/img/bellabeats_3.png" alt="BellaBeats Image 3">
-            <img class="w-full h-full p-2" src="assets/img/bellabeats_4.png" alt="BellaBeats Image 4">
+        <div id="bellabeats" class="flex flex-col shadow rounded-xl m-4 bg-gray-100 hover:bg-blue-400">
+            <button id="bellabeatsButton" type="button">
+                <h3 class="text-center text-2xl p-4"><strong>BELLABEATS CASE STUDY</strong></h3>
+            </button>
+            <div id="bellabeatsContent" class="hidden px-4">
+                <p>This was the final project for the Google Data Analytics Professional Certificate. It involved data
+                    analysis using SQL for database management and the R programming language to clean and visually
+                    explore the data. It used a dataset from FitBit users that BellaBeats, a high-tech manufacturer of
+                    health-focused products for women, wants to use to identify key insights and get a recommendation
+                    for one of their products and its future marketing.<br>Below are a few slides from the presentation.
+                </p>
+                <img class="w-full h-full py-2" src="assets/img/bellabeats_2.png" alt="BellaBeats Image 2">
+                <img class="w-full h-full py-2" src="assets/img/bellabeats_3.png" alt="BellaBeats Image 3">
+                <img class="w-full h-full py-2" src="assets/img/bellabeats_4.png" alt="BellaBeats Image 4">
+            </div>
+            <button id="bellabeatsCollapse" type="button"
+                class="hidden w-1/3 m-4 mx-auto py-4 rounded-md bg-blue-400">^ Collapse ^</button>
         </div>
         <!-- The Weather App Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="weather" class="text-center text-2xl"><strong>THE WEATHER APP</strong></h3>
-            <p>This project involved creating a mobile application using C#, MAUI and XAML that connected with a web
-                Application Programming Interface to fetch data.</p>
-            <p>The application had to include:</p>
-            <ul class="list-disc pl-12">
-                <li>At least 4 unique screens.</li>
-                <li>Designed for mulitple device sizes and orientation.</li>
-                <li>Fetch data from a web API.</li>
-                <li>Include user preferences for customization.</li>
-            </ul>
-            <p>The deliverables included:</p>
-            <ul class="list-disc pl-12">
-                <li>Wireframes and UI designs.</li>
-                <li>Actions and Events list.</li>
-                <li>Testing documentation.</li>
-                <li>APK file for release.</li>
-            </ul>
-            <div class="grid grid-cols-2">
-                <img class="w-full h-full p-2" src="assets/img/weather_2.jpg" alt="Weather App Image 1">
-                <img class="w-full h-full p-2" src="assets/img/weather_3.jpg" alt="Weather App Image 2">
-                <img class="w-full h-full p-2" src="assets/img/weather_4.jpg" alt="Weather App Image 3">
-                <img class="w-full h-full p-2" src="assets/img/weather_5.jpg" alt="Weather App Image 4">
+        <div id="weather" class="flex flex-col shadow rounded-xl m-4 bg-gray-100 hover:bg-blue-400">
+            <button id="weatherButton" type="button">
+                <h3 class="text-center text-2xl p-4"><strong>THE WEATHER APP</strong></h3>
+            </button>
+            <div id="weatherContent" class="hidden px-4">
+                <p>This project involved creating a mobile application using C#, MAUI and XAML that connected with a web
+                    Application Programming Interface to fetch data.</p>
+                <p>The application had to include:</p>
+                <ul class="list-disc pl-12">
+                    <li>At least 4 unique screens.</li>
+                    <li>Designed for mulitple device sizes and orientation.</li>
+                    <li>Fetch data from a web API.</li>
+                    <li>Include user preferences for customization.</li>
+                </ul>
+                <p>The deliverables included:</p>
+                <ul class="list-disc pl-12">
+                    <li>Wireframes and UI designs.</li>
+                    <li>Actions and Events list.</li>
+                    <li>Testing documentation.</li>
+                    <li>APK file for release.</li>
+                </ul>
+                <div class="grid grid-cols-2">
+                    <img class="w-full h-full p-2" src="assets/img/weather_2.jpg" alt="Weather App Image 1">
+                    <img class="w-full h-full p-2" src="assets/img/weather_3.jpg" alt="Weather App Image 2">
+                    <img class="w-full h-full p-2" src="assets/img/weather_4.jpg" alt="Weather App Image 3">
+                    <img class="w-full h-full p-2" src="assets/img/weather_5.jpg" alt="Weather App Image 4">
+                </div>
             </div>
+            <button id="weatherCollapse" type="button"
+                class="hidden w-1/3 m-4 mx-auto py-4 rounded-md bg-blue-400">^ Collapse ^</button>
         </div>
         <!-- Taylor'd Autotraderz' Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="autotrade" class="text-center text-2xl"><strong>Taylor'd Autotraderz'</strong></h3>
-            <p>This project involved creating a C# and SQL program with a Graphical User Interface for managing a car
-                inventory
-                using Windows Presentation Foundation.</p>
-            <p>The program had to include:</p>
-            <ul class="list-disc pl-12">
-                <li>A 20 vehicle showroom, with information such as make, model and year for each vehicle.</li>
-                <li>The ability to display, add, remove, and search for cars in the inventory.</li>
-                <li>Validation checks.</li>
-                <li>Sequential and direct access search algorithms.</li>
-            </ul>
-            <p>The deliverables included:</p>
-            <ul class="list-disc pl-12">
-                <li>A SQL interaction diagram.</li>
-                <li>A working program.</li>
-                <li>A test plan document.</li>
-            </ul>
-            <div class="grid grid-cols-2">
-                <img class="w-full h-full p-2" src="assets/img/auto_1.png" alt="Autotraderz Image 1">
-                <img class="w-full h-full p-2" src="assets/img/auto_2.png" alt="Autotraderz Image 2">
-                <img class="w-full h-full p-2" src="assets/img/auto_3.png" alt="Autotraderz Image 3">
-                <img class="w-full h-full p-2" src="assets/img/auto_4.png" alt="Autotraderz Image 4">
-                <img class="w-full h-full p-2" src="assets/img/auto_5.png" alt="Autotraderz Image 5">
-                <img class="w-full h-full p-2" src="assets/img/auto_6.png" alt="Autotraderz Image 6">
+        <div id="autotrader" class="flex flex-col shadow rounded-xl m-4 bg-gray-100 hover:bg-blue-400">
+            <button id="autotraderButton" type="button">
+                <h3 class="text-center text-2xl p-4"><strong>TAYLOR'D AUTOTRADERZ'</strong></h3>
+            </button>
+            <div id="autotraderContent" class="hidden px-4">
+                <p>This project involved creating a C# and SQL program with a Graphical User Interface for managing a car
+                    inventory
+                    using Windows Presentation Foundation.</p>
+                <p>The program had to include:</p>
+                <ul class="list-disc pl-12">
+                    <li>A 20 vehicle showroom, with information such as make, model and year for each vehicle.</li>
+                    <li>The ability to display, add, remove, and search for cars in the inventory.</li>
+                    <li>Validation checks.</li>
+                    <li>Sequential and direct access search algorithms.</li>
+                </ul>
+                <p>The deliverables included:</p>
+                <ul class="list-disc pl-12">
+                    <li>A SQL interaction diagram.</li>
+                    <li>A working program.</li>
+                    <li>A test plan document.</li>
+                </ul>
+                <div class="grid grid-cols-2">
+                    <img class="w-full h-full p-2" src="assets/img/auto_1.png" alt="Autotraderz Image 1">
+                    <img class="w-full h-full p-2" src="assets/img/auto_2.png" alt="Autotraderz Image 2">
+                    <img class="w-full h-full p-2" src="assets/img/auto_3.png" alt="Autotraderz Image 3">
+                    <img class="w-full h-full p-2" src="assets/img/auto_4.png" alt="Autotraderz Image 4">
+                    <img class="w-full h-full p-2" src="assets/img/auto_5.png" alt="Autotraderz Image 5">
+                    <img class="w-full h-full p-2" src="assets/img/auto_6.png" alt="Autotraderz Image 6">
+                </div>
             </div>
+            <button id="autotraderCollapse" type="button"
+                class="hidden w-1/3 m-4 mx-auto py-4 rounded-md bg-blue-400">^ Collapse ^</button>
         </div>
         <!-- Hangman Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="hangman" class="text-center text-2xl"><strong>HANGMAN</strong></h3>
-            <p>This project involved using Python3 to enhancing a very basic existing Hangman game file.</p>
-            <p>The key enhancements included:</p>
-            <ul class="list-disc pl-12">
-                <li>Creating a user greeting function.</li>
-                <li>A random word selector from a saved file.</li>
-                <li>A menu for selecting from multiple word files.</li>
-                <li>Difficulty variations for lives or word difficulty.</li>
-                <li>An enhanced game over screen.</li>
-            </ul>
-            <p>The key deliverables included:</p>
-            <ul class="list-disc pl-12">
-                <li>A system change request documenting the key changes.</li>
-                <li>An analysis and design document detailing the enhancements.</li>
-                <li>A comprehensive test plan, including unit and integration tests.</li>
-                <li>A user manual for the updated version of the game</li>
-            </ul>
-            <div class="grid grid-cols-2">
-                <img class="w-full h-full p-2" src="assets/img/hangman_2.png" alt="Hangman Game Image 1">
-                <img class="w-full h-full p-2" src="assets/img/hangman_3.png" alt="Hangman Game Image 2">
-                <img class="w-full h-full p-2" src="assets/img/hangman_4.png" alt="Hangman Game Image 3">
-                <img class="w-full h-full p-2" src="assets/img/hangman_5.png" alt="Hangman Game Image 4">
+        <div id="hangman" class="flex flex-col shadow rounded-xl m-4 bg-gray-100 hover:bg-blue-400">
+            <button id="hangmanButton" type="button">
+                <h3 class="text-center text-2xl p-4"><strong>HANGMAN</strong></h3>
+            </button>
+            <div id="hangmanContent" class="hidden px-4">
+                <p>This project involved using Python3 to enhancing a very basic existing Hangman game file.</p>
+                <p>The key enhancements included:</p>
+                <ul class="list-disc pl-12">
+                    <li>Creating a user greeting function.</li>
+                    <li>A random word selector from a saved file.</li>
+                    <li>A menu for selecting from multiple word files.</li>
+                    <li>Difficulty variations for lives or word difficulty.</li>
+                    <li>An enhanced game over screen.</li>
+                </ul>
+                <p>The key deliverables included:</p>
+                <ul class="list-disc pl-12">
+                    <li>A system change request documenting the key changes.</li>
+                    <li>An analysis and design document detailing the enhancements.</li>
+                    <li>A comprehensive test plan, including unit and integration tests.</li>
+                    <li>A user manual for the updated version of the game</li>
+                </ul>
+                <div class="grid grid-cols-2">
+                    <img class="w-full h-full p-2" src="assets/img/hangman_2.png" alt="Hangman Game Image 1">
+                    <img class="w-full h-full p-2" src="assets/img/hangman_3.png" alt="Hangman Game Image 2">
+                    <img class="w-full h-full p-2" src="assets/img/hangman_4.png" alt="Hangman Game Image 3">
+                    <img class="w-full h-full p-2" src="assets/img/hangman_5.png" alt="Hangman Game Image 4">
+                </div>
+                <p>If you would like to download and play the game for yourself,
+                    <a class="text-blue-400" href="https://github.com/3mmette/Hangman"><b><u>CLICK HERE</u></b></a>
+                </p>
             </div>
-            <p>If you would like to download and play the game for yourself,
-                <a class="text-blue-400" href="https://github.com/3mmette/Hangman">CLICK HERE.</a>
-            </p>
+            <button id="hangmanCollapse" type="button"
+                class="hidden w-1/3 m-4 mx-auto py-4 rounded-md bg-blue-400">^ Collapse ^</button>
         </div>
         <!-- Meteorite Finder Project -->
-        <div class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100">
-            <h3 id="meteor" class="text-center text-2xl"><strong>METEORITE FINDER</strong></h3>
-            <p>This was a quick personal project using Python3 that involved using the meteorite dataset from NASA's
-                open data portal.
-                Using the comma-separated values download, I sorted the data, removing any incomplete sets before adding
-                the entries to a SQL database. Information was then obtained from the complete data and the ability to
-                search for your closest meteorite find.</p>
-            <img class="w-full h-full p-2" src="assets/img/meteorite_2.png" alt="Meteorite Dataset Image 2">
+        <div id="meteor" class="flex flex-col shadow rounded-xl m-4 bg-gray-100 hover:bg-blue-400">
+            <button id="meteorButton" type="button">
+                <h3 class="text-center text-2xl p-4"><strong>METEORITE FINDER</strong></h3>
+            </button>
+            <div id="meteorContent" class="hidden px-4">
+                <p>This was a quick personal project using Python3 that involved using the meteorite dataset from NASA's
+                    open data portal.
+                    Using the comma-separated values download, I sorted the data, removing any incomplete sets before adding
+                    the entries to a SQL database. Information was then obtained from the complete data and the ability to
+                    search for your closest meteorite find.</p>
+                <img class="w-full h-full p-2" src="assets/img/meteorite_2.png" alt="Meteorite Dataset Image 2">
+            </div>
+            <button id="meteorCollapse" type="button"
+                class="hidden w-1/3 m-4 mx-auto py-4 rounded-md bg-blue-400">^ Collapse ^</button>
         </div>
     </Main>
     <!-- Constant Footer -->
@@ -184,3 +189,5 @@
             </li>
         </ul>
     </footer>
+    <script src="assets/js/projects.js"></script>
+</body>
