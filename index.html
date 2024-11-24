@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="./assets/css/site.css">
 </head>
 
-<body class="border-gray-200 border-2 m-24 p-4">
+<body class="m-0 md:m-18 lg:m-24 p-2 md:p-3 lg:p-4 lg:border-gray-200 lg:border-2">
     <!-- Constant Header -->
     <header>
-        <h1 class="text-center text-4xl font-semibold pt-24 pb-12">EMMETTE TAYLOR</h1>
+        <h1
+            class="text-center font-semibold text-2xl md:text-3xl lg:text-4xl pt-12 md:pt-18 lg:pt-24 pb-4 md:pb-8 lg:pb-12">
+            EMMETTE TAYLOR</h1>
         <nav>
-            <ul class="flex justify-center space-x-4 text-2xl list-none">
+            <ul
+                class="flex justify-center list-none space-x-2 md:space-x-3 lg:space-x-4 text-sm md:text-lg lg:text-2xl">
                 <li><a class="px-2 py-1 text-black border-b-2 border-gray-300" href="index.html">HOME</a></li>
                 <li><a class="px-2 py-1 text-gray-300 hover:text-black border-b-2 border-transparent hover:border-gray-300"
                         href="about.html">ABOUT</a></li>
@@ -31,53 +34,60 @@
         </nav>
     </header>
     <Main>
-        <img class="mx-auto w-1/2 pt-16 pb-4" src="assets/img/home.jpg" alt="Home Image - Me">
-        <section class="text-lg pt-8">
-            <p class="mx-auto w-3/4">The year was 1990, the first proposal for the World Wide Web was accepted here on
+        <!-- Short introduction -->
+        <img class="mx-auto w-4/5 md:w-2/3 lg:w-1/2 pt-8 md:pt-12 lg:pt-16 pb-4 md:pb-8 lg:pb-12"
+            src="assets/img/home.jpg" alt="Home Image - Me">
+        <section class="mx-auto w-5/6 md:w-4/5 lg:w-3/4 text-sm md:text-md lg:text-lg">
+            <p>The year was 1990, the first proposal for the World Wide Web was accepted here on
                 earth, the Hubble Space Telescope was launched into space, and I was born.</p>
-            <a class="mx-auto pt-4 w-3/4 block text-blue-400" href="about.html">Find out more</a>
+            <a class="pt-2 md:pt-3 lg:pt-4 block text-blue-400" href="about.html">Find out more</a>
         </section>
-        <section class="text-lg pt-12">
-            <h2 class="text-center text-2xl"><b>Current Employment</b></h2>
-            <hr class="mx-auto w-3/4 my-2 border-gray-200">
-            <article class="flex justify-evenly items-center mx-auto w-3/4">
-                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">Special Operations Group Officer</p>
-                <p class="flex-1 p-2 text-center">Department of Corrective Services</p>
-                <p class="flex-1 border-l-2 border-r-2 p-2 text-center">March 2024 - Present</p>
+        <!-- Short resume -->
+        <section class="text-sm md:text-md lg:text-lg pt-4 md:pt-8 lg:pt-12">
+            <h2 class="text-center text-lg md:text-xl lg:text-2xl"><b>Current Employment</b></h2>
+            <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4 ">
+            <article class="md:flex justify-evenly items-center mx-auto w-5/6 md:w-4/5 lg:w-3/4">
+                <p class="flex-1 md:border-l-2 md:border-r-2 p-0 text-left md:text-center">Special Operations Group
+                    Officer</p>
+                <p class="flex-1 p-0 md:p-2 text-left md:text-center">Department of Corrective Services</p>
+                <p class="flex-1 md:border-l-2 md:border-r-2 p-0 md:p-2 text-left md:text-center">March 2024 - Present
+                </p>
             </article>
-            <hr class="mx-auto w-3/4 my-2 border-gray-200">
-            <article class="flex justify-evenly items-center mx-auto w-3/4">
-                <ul class="flex-1 border-l-2 border-r-2 pl-2">
+            <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4">
+            <article class="md:flex justify-evenly items-center mx-auto w-5/6 md:w-4/5 lg:w-3/4">
+                <ul class="flex-1 md:border-l-2 md:border-r-2 pl-0 md:pl-2">
                     <li><b>Qualifications</b></li>
                     <li>Diploma of Leadership and Management</li>
                     <li>Diploma of Security Risk Management</li>
                     <li>Certificate IV in Information Technology</li>
                     <li>Google Data Analytics Professional Certificate</li>
                 </ul>
-                <ul class="flex-1 border-r-2 pl-2">
+                <ul class="flex-1 md:border-r-2 pl-o md:pl-2">
                     <li><b>Awards</b></li>
-                    <li>SOG Selection Course - Student to Merit</li>
-                    <li>ADF Senior Leader Course - Student to Merit</li>
+                    <li>SOG Selection Course - Student of Merit</li>
+                    <li>ADF Senior Leader Course - Student of Merit</li>
+                    <li>ADF Junior Leader Course - Student of Merit</li>
                     <li>ADF Junior Leader Course - Best Instructor</li>
-                    <li>ADF Junior Leader Course - Student to Merit</li>
                 </ul>
             </article>
-            <hr class="mx-auto w-3/4 my-2 border-gray-200">
-            <a class="mx-auto pt-4 w-3/4 block text-lg text-blue-400 " href="resume.html">View full resume</a>
+            <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4">
+            <a class="mx-auto w-5/6 md:w-4/5 lg:w-3/4 text-sm md:text-md lg:text-lg pt-2 md:pt-3 lg:pt-4 block text-blue-400"
+                href="resume.html">View full resume</a>
         </section>
-        <section class="mx-auto w-3/4 pt-12 text-xl">
-            <h2 class="text-center text-2xl"><b>Projects</b></h2>
-            <div class="grid grid-cols-2">
+        <!-- Short projects -->
+        <section class="mx-auto w-5/6 md:w-3/4 pt-4 md:pt-8 lg:pt-12 text-xl">
+            <h2 class="text-center text-lg md:text-xl lg:text-2xl"><b>Projects</b></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                 <!-- The Island Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="mywork.html#island">
-                    <h3 class="text-center">The Island - A text based adventure game</h3>
+                    <h3 class="text-center">The Island</h3>
                     <div>
                         <img src="assets/img/island_1.png" alt="The Island Game Image">
                     </div>
                 </a>
                 <!-- BellaBeats Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="projects.html#bellabeats?bellabeats=true">
                     <h3 class="text-center">BellaBeats Case Study</h3>
                     <div class="flex items-center justify-center">
@@ -85,37 +95,38 @@
                     </div>
                 </a>
                 <!-- The Weather App Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="projects.html#weather?weather=true">
                     <h3 class="text-center">The Weather App</h3>
                     <img src="assets/img/weather_1.jpg" alt="The Weather Application Image">
                 </a>
                 <!-- Taylor'd Autotraderz' Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="projects.html#autotrader?autotrader=true">
                     <h3 class="text-center">Taylor'd Autotraderz' WPF</h3>
                     <img src="assets/img/auto_1.png" alt="Taylor'd Auto Traders Image">
                 </a>
                 <!-- Hangman Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="projects.html#hangman?hangman=true">
                     <h3 class="text-center">Hangman - The Game</h3>
                     <img src="assets/img/hangman_1.png" alt="Hangman Game Image">
                 </a>
                 <!-- Meteorite Finder Project -->
-                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-400"
+                <a class="flex flex-col shadow gap-4 m-4 p-4 rounded-xl bg-gray-100 hover:bg-blue-200"
                     href="projects.html#meteor?meteor=true">
-                    <h3 class="text-center">Metiorite Information and Finder</h3>
+                    <h3 class="text-center">Meteorite Information and Finder</h3>
                     <img src="assets/img/meteorite_1.png" alt="Metiorite Finder Image">
                 </a>
             </div>
-            <a class="block pt-4 text-lg text-blue-400" href="projects.html">To view more, either click on a project or
+            <a class="mx-auto text-sm md:text-md lg:text-lg pt-2 md:pt-3 lg:pt-4 block text-blue-400"
+                href="projects.html">To view more, click on a project or
                 follow this link.</a>
         </section>
     </Main>
-    <footer class="flex justify-between mx-auto w-4/5 pt-12 pb-12 text-xl">
+    <footer class="flex justify-between mx-auto w-4/5 py-12 text-md md:text-lg lg:text-xl">
         <p>&copy; 2024 Emmette Taylor</p>
-        <ul class="flex flex-row space-x-2">
+        <ul class="flex flex-row space-x-3">
             <li>
                 <a href="https://x.com/3mmette">
                     <img class="rounded-full w-8" src="assets/img/x_logo.png" alt="X Logo">
