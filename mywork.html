@@ -48,12 +48,12 @@
                     <p class="text-center">It slowly rocks back and forth in the ocean</p>
                     <p class="text-right">It is tied to a small jetty and beyond lies</p>
                 </div>
-                <img src="assets/img/island_1.png" alt="Island Game Empty Chart Image">
+                <img src="assets/img/island_chart_empty.png" alt="Island Game Empty Chart Image">
                 <!-- Why -->
                 <p class="pt-2 md:pt-3 lg:pt-4">This was my favorite project as:</p>
                 <ul class="list-disc pl-6 md:pl-12">
-                    <li>I am an enthusiast of games in all forms — board, video and sports. To create one was amazing.
-                    </li>
+                    <li>I am an enthusiast of games in all forms, including board, video and sports. To create one was
+                        amazing.</li>
                     <li>The project gave me the freedom to craft an entirely new world for others to discover.</li>
                     <li>It involved designing puzzles for players and solving problems during development.</li>
                     <li>It was something I could not only show my friends, but watch them play and enjoy it.</li>
@@ -101,7 +101,7 @@
             <!-- Buttons to reveal more information -->
             <div class="grid grid-cols-2 p-2">
                 <button id="codingRevealButton" type="button"
-                    class="mx-auto w-4/5 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
+                    class="mx-auto w-5/6 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
                     Show Coding</button>
                 <button id="featureRevealButton" type="button"
                     class="mx-auto w-2/3 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
@@ -113,141 +113,136 @@
                 <!-- Classes and functions -->
                 <p>This experience gave me valuable insight into what it takes to create a game from scratch, from
                     designing classes and functions to building and populating the world.</p>
-                <img class="py-2" src="assets/img/island_16.png"
+                <img class="py-2" src="assets/img/island_code_locations.png"
                     alt="Island Game - Function to create explorable location">
-                <img class="py-2" src="assets/img/island_18.png"
+                <img class="py-2" src="assets/img/island_code_items.png"
                     alt="Island Game - Base function for all items in game">
                 <!-- Displaying information -->
-                <p>Then ultimately displaying them on the screen.</p>
-                <img class="py-2" src="assets/img/island_20.png" alt="Island Game - Display location information">
-                <img class="py-2" src="assets/img/island_21.png" alt="Island Game - Display items in location">
+                <p>Ultimately displaying them on the screen.</p>
+                <img class="py-2" src="assets/img/island_code_location_display.png"
+                    alt="Island Game - Display location information">
+                <img class="py-2" src="assets/img/island_code_item_display.png"
+                    alt="Island Game - Display items in location">
                 <!-- Conditional statements -->
-                <p>And revealed the amount of effort and the countless conditional statements required just to open
-                    something, let alone the 2,000+ lines of code dedicated solely to conditionals.</p>
-                <img class="py-2" src="assets/img/island_17.png" alt="Island Game - Conditional statement example">
+                <p>It revealed the amount of effort and conditional statements required just to open
+                    something, let alone the 2,000+ lines of code dedicated solely to other conditionals.</p>
+                <img class="py-2" src="assets/img/island_code_conditional.png"
+                    alt="Island Game - Conditional statement example">
             </div>
             <!-- Content on the game features -->
             <div id="featureContent" class="hidden text-sm md:text-base">
                 <!-- Locations -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Explorable Locations</h3>
                 <p>I initially designed the game world using a 3x3 grid, representing locations on an island. To meet
-                    the
-                    requirement of having 10 explorable locations, I introduced a boat in the lower-left corner.
-                    Surrounding
-                    these locations was an ocean, which entering into would result in a game over. Seeking to provide a
-                    secondary avenue to completing the game, I expanded the map by adding a new location to the north.
-                    Each
-                    location was crafted with its own distinct description, items, and ambiance, all serving specific
-                    roles
-                    within the game's narrative.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_3.png" alt="Island Game Full Chart Image">
-                <!-- Actions -->
-                <h3 class="text-center text-lg md:text-xl pb-1">Various Action Words</h3>
-                <p>Within the game, you have the option to perform these actions.</p>
-                <p>The following can be used on their own:</p>
-                <ul class="list-disc pl-12">
-                    <li>Help (H) - Opens an in game conversation if you require assistance.</li>
-                    <li>Refresh (R) - Clears up the screen and displays the original location information again.</li>
-                    <li>Bag (B) - Opens you bag, displaying capacity and carried items.</li>
-                    <li>Chart (C) - Opens a map, showing your location and discovered locations.</li>
-                    <li>Quit (Q) - Leave the game.</li>
-                </ul>
-                <p>The following require an item written in caps lock:</p>
-                <ul class="list-disc pl-12">
-                    <li>Look (L) - Take a closer look to discover more information about the item</li>
-                    <li>Move (M) - Use with a cardinal direct (N, S, E, W) to move to an adjacent location.</li>
-                    <li>Interact (I) - When you wish to interact with an object or utilize an item from your inventory
-                    </li>
-                    <li>Open (O) - If containers are closed, use this action.</li>
-                    <li>Take (T) - Place an item in your bag to take with you.</li>
-                    <li>Drop (D) - Drop an item in your bag, it will remain in this location.</li>
-                    <li>Speak (S) - Interact with an NPC.</li>
-                    <li>Eat (E) - Eat or drink a valid item.</li>
-                </ul>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_7.png" alt="Island Game Actions Image">
+                    the initial requirement of having 10 explorable locations, which was later reduced to five, I
+                    introduced a boat in the lower-left corner. Surrounding these locations was an ocean, which entering
+                    into would result in a game over. Seeking to provide a secondary avenue to completing the game, I
+                    expanded the map by adding a new location to the north. Each location was crafted with its own
+                    distinct description, items, and ambiance, all serving specific roles within the game's narrative.
+                </p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_chart_full.png"
+                    alt="Island Game Full Chart Image">
                 <!-- NPCs -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Non Player Characters</h3>
-                Three NPCs scattered across the map can assist you in your escape from The Island, but remember,
-                everything
-                comes at a price unless you're charismatic, and that will only get you so far. Help them, and in turn,
-                they
-                can help you.
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_9.png" alt="Island Game NPC Image">
+                The three required NPCs, the requirment later reduced to one, are scattered across the map and can
+                assist the player in their escape from The Island. I didn't want to make it too easy though, so items
+                may have to be discovered first or items traded to gain assistance. I also added a character
+                specializations to make these interactions easier.
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_npc.png" alt="Island Game NPC Image">
                 <!-- Items -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Usable Items</h3>
-                <p>Items written in caps lock idicate they have importance and actions can be can be initiated with
-                    them,
-                    although not all items can use all action words.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_6.png" alt="Island Game Items Image">
+                <p>I needed a way to denote items that action words could be used with. I decided they would be written
+                    in caps lock for easy identification, although not all items can use all action words.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_items.png" alt="Island Game Items Image">
+                <!-- Actions -->
+                <h3 class="text-center text-lg md:text-xl pb-1">Various Action Words</h3>
+                <p>The player can perform the following actions.</p>
+                <p>These can be used on their own:</p>
+                <ul class="list-disc pl-6 md:pl-12">
+                    <li>Help (H)<br>Opens in game help dialogue</li>
+                    <li>Refresh (R)<br>Clears up the screen</li>
+                    <li>Bag (B)<br>Displays capacity and carried items</li>
+                    <li>Chart (C)<br>Displays the map</li>
+                    <li>Quit (Q)<br>Leave the game</li>
+                </ul>
+                <p>These require an item:</p>
+                <ul class="list-disc pl-6 md:pl-12">
+                    <li>Look (L)<br>Discover more information about the item</li>
+                    <li>Move (M)<br>Go to an adjacent location with N, S, E or W</li>
+                    <li>Interact (I)<br>Use an item from the location or your bag</li>
+                    <li>Open (O)<br>For closed, unlocked containers</li>
+                    <li>Take (T)<br>Place an item in your bag to take with you</li>
+                    <li>Drop (D)<br>Drop an item from your bag</li>
+                    <li>Speak (S)<br>Interact with an NPC</li>
+                    <li>Eat (E)<br>Eat or drink a valid item</li>
+                </ul>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_actions.png"
+                    alt="Island Game Actions Image">
                 <!-- Bag -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Bag</h3>
-                <p>Items need to be move and used, so can be taken and stored in your bag. They can also be dropped if
-                    no
-                    longer required.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_10.png" alt="Island Game Bag Image">
+                <p>Items need to be move and used, so can be taken and stored in a bag. I chose to give the player a
+                    capacity of five items. They can also be dropped if no longer required and will remain in the
+                    dropped location. I also added a character specializations which allows the player to carry 10
+                    items.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_bag.png" alt="Island Game Bag Image">
                 <!-- Chart -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Chart</h3>
-                <p>As you explore The Island, your current position will be indicated by an 'X' on the map, and the
-                    names of
-                    various locations will become known to you as you uncover them.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_11.png"
+                <p>As The Island is explored, the players current position will be indicated by an 'X' on the map, and
+                    the names of various locations will become known to they uncover new location.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_chart_partial.png"
                     alt="Island Game Partial Chart Image">
-                <!-- Help -->
-                <h3 class="text-center text-lg md:text-xl pb-1">Help Menu</h3>
-                <p>I created a comprehensive help menu for the game to assist players. It provides a basic overview of
-                    the
-                    gameplay essentials, the objective on how to win the game and detailed explanations of how each
-                    action
-                    word functions within the game.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_8.png" alt="Island Game Help Image">
                 <!-- Win or Lose -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Winning and Losing</h3>
                 <p>I contemplated various ways for players to complete the game. The most straightforward method would
-                    be to
-                    escaping by boat. To utilize the boat, players would need to fulfill certain prerequisites:
-                    gathering
-                    fuel, power, and a key. To enhance gameplay depth, I decided there would be two alternative methods
-                    to
-                    acquire each of these essentials. This design ensured that if one item was missed or made
-                    inaccessible
-                    due to player choices, another path to obtain it would still be available, maintaining the game's
-                    playability.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_4.png"
+                    be to escaping by boat. To utilize the boat, players would need to fulfill certain prerequisites:
+                    gathering fuel, power, and a key. To enhance gameplay depth, I decided there would be two
+                    alternative methods to acquire each of these essentials. This design ensured that if one item was
+                    missed or made inaccessible due to player choices, another path to obtain it would still be
+                    available, maintaining the game's playability.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_win_pri.png"
                     alt="Island Game Primary Win Image">
                 <p>For the secondary avenue to completing the game, I incorporated a puzzle that an observant player may
-                    be
-                    able to solve, rewarding those who explore and observe meticulously.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_5.png"
+                    be able to solve using the granite block in the northern most part of The Island. This rewards those
+                    who explore and observe meticulously.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_win_alt.png"
                     alt="Island Game Secondary Win Image">
                 <p>There are also various ways to lose, from wandering into the ocean to solving problems
                     incorrectly, and not eating or drinking to being poisened by consuming the wrong thing.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_12.png" alt="Island Game Loss Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_lose.png" alt="Island Game Loss Image">
+                <!-- Help -->
+                <h3 class="text-center text-lg md:text-xl pb-1">Help Menu</h3>
+                <p>I created a comprehensive help menu for the game to assist players. It provides a basic overview of
+                    the gameplay essentials, the objective on how to win the game and detailed explanations of how each
+                    action word functions within the game.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_help.png" alt="Island Game Help Image">
                 <!-- Puzzles -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Puzzles</h3>
                 <p>I develop some puzzles that would vary with each playthrough. I created two, the first involves a
-                    note where one out of ten different cryptic puzzles would appear, and the second where a colour is
+                    note where one of ten different cryptic puzzles would appear, and the second where a colour is
                     randomly selected from six options, influencing the values of food items.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_13.png" alt="Island Game Puzzles Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_puzzles.png"
+                    alt="Island Game Puzzles Image">
                 <!-- Perks -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Specialization</h3>
                 <p>To enhance the gameplay experience, I provided players with the choice of four perks to assist them
-                    during their adventure on The Island.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_14.png"
+                    during their adventure on The Island. They could choose to carry more items, reduce the cost of
+                    movement, assist when interacting with charecters, or see values on consumable items.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_special.png"
                     alt="Island Game Specialization Image">
                 <!-- Consumables -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Consumables System</h3>
                 <p>To enhance the gameplay experience even more, I introduced energy and hydration mechanics. This
-                    compels
-                    players to manage their resources more carefully as they explore The Island, preventing endless
-                    wandering. Additionally, perks can offer advantages like extended travel capabilities or enhanced
-                    knowledge about consumable items.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_15.png"
+                    compels players to manage their resources more carefully as they explore The Island, preventing
+                    endless wandering. I also added character specializations which allow the player to extended
+                    their travel capabilities and another to enhance their knowledge about consumable items.</p>
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_consumables.png"
                     alt="Island Game Consumables Image">
             </div>
         </div>
     </Main>
     <!-- Constant Footer -->
-    <footer class="flex items-center justify-between mx-auto w-4/5 py-6 md:py-8 lg:py-12 text-sm md:text-lg lg:text-xl">
+    <footer
+        class="flex items-center justify-between mx-auto md:w-4/5 py-6 md:py-8 lg:py-12 text-sm md:text-lg lg:text-xl">
         <p>&copy; 2024 Emmette Taylor</p>
         <ul class="flex flex-row space-x-3">
             <li>
