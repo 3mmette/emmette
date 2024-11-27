@@ -12,40 +12,47 @@
 <body class="m-0 md:m-18 lg:m-24 p-2 md:p-3 lg:p-4 lg:border-2 lg:border-gray-200">
     <!-- Constant Header -->
     <header>
-        <h1
+        <h1 id="mobileNav"
             class="text-center font-semibold text-2xl md:text-3xl lg:text-4xl pt-12 md:pt-18 lg:pt-24 pb-4 md:pb-8 lg:pb-12">
             EMMETTE TAYLOR</h1>
         <nav>
             <ul
-                class="flex justify-center list-none space-x-2 md:space-x-3 lg:space-x-4 text-sm md:text-lg lg:text-2xl">
-                <li><a class="px-2 py-1 text-black border-b-2 border-gray-400" href="index.html">HOME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="about.html">ABOUT</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                class="grid grid-cols-3 gap-4 text-center text-sm md:flex md:justify-center md:space-x-2 lg:space-x-4 md:text-lg lg:text-2xl">
+                <li class="md:inline-block"><a class="px-2 py-1 text-black border-b-2 border-gray-400"
+                        href="index.html">HOME</a></li>
+                <li class="md:inline-block"><a
+                        class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
                         href="projects.html">PROJECTS</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="mywork.html">GAME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                <li class="md:inline-block"><a
+                        class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
                         href="resume.html">RESUME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                <li class="md:inline-block"><a
+                        class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                        href="about.html">ABOUT</a></li>
+                <li class="md:inline-block"><a
+                        class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                        href="mywork.html">GAME</a></li>
+                <li class="md:inline-block"><a
+                        class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
                         href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <Main>
         <!-- Short introduction -->
-        <img class="mx-auto w-4/5 md:w-2/3 lg:w-1/2 pt-8 md:pt-12 lg:pt-16 pb-4 md:pb-8 lg:pb-12"
+        <img class="mx-auto w-11/12 md:w-2/3 lg:w-1/2 pt-8 md:pt-12 lg:pt-16 pb-4 md:pb-8 lg:pb-12"
             src="assets/img/home.jpg" alt="Home Image - Me">
-        <section class="mx-auto w-5/6 md:w-4/5 lg:w-3/4 text-sm md:text-md lg:text-lg">
+        <section class="mx-auto w-11/12 md:w-4/5 lg:w-3/4 text-sm md:text-md lg:text-lg">
             <p>The year was 1990, the first proposal for the World Wide Web was accepted here on
-                earth, the Hubble Space Telescope was launched into space, and I was born.</p>
+                Earth, the Hubble Space Telescope was launched into space, and I was born.</p>
             <a class="pt-2 md:pt-3 lg:pt-4 block text-blue-400" href="about.html">Find out more</a>
         </section>
         <!-- Short resume -->
         <section class="text-sm md:text-base lg:text-lg pt-4 md:pt-8 lg:pt-12">
-            <h2 class="text-center text-lg md:text-xl lg:text-2xl"><b>Current Employment</b></h2>
+            <h2 class="text-left md:text-center mx-auto w-11/12 md:w-full text-lg md:text-xl lg:text-2xl"><b>Current
+                    Employment</b></h2>
             <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4 ">
-            <article class="md:flex justify-evenly items-center mx-auto w-5/6 md:w-4/5 lg:w-3/4">
+            <article class="md:flex justify-evenly items-center mx-auto w-11/12 md:w-4/5 lg:w-3/4">
                 <p class="flex-1 md:border-l-2 md:border-r-2 p-0 text-left md:text-center">Special Operations Group
                     Officer</p>
                 <p class="flex-1 p-0 md:p-2 text-left md:text-center">Department of Corrective Services</p>
@@ -53,7 +60,7 @@
                 </p>
             </article>
             <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4">
-            <article class="md:flex justify-evenly items-center mx-auto w-5/6 md:w-4/5 lg:w-3/4">
+            <article class="md:flex justify-evenly items-center mx-auto w-11/12 md:w-4/5 lg:w-3/4">
                 <ul class="flex-1 md:border-l-2 md:border-r-2 pl-0 md:pl-2">
                     <li><b>Qualifications</b></li>
                     <li>Diploma of Leadership and Management</li>
@@ -70,11 +77,11 @@
                 </ul>
             </article>
             <hr class="hidden md:block mx-auto my-2 border-gray-200 md:w-4/5 lg:w-3/4">
-            <a class="mx-auto w-5/6 md:w-4/5 lg:w-3/4 text-sm md:text-base lg:text-lg pt-2 md:pt-3 lg:pt-4 block text-blue-400"
+            <a class="mx-auto w-11/12 md:w-4/5 lg:w-3/4 text-sm md:text-base lg:text-lg pt-2 md:pt-3 lg:pt-4 block text-blue-400"
                 href="resume.html">View full resume</a>
         </section>
         <!-- Short projects -->
-        <section class="mx-auto w-5/6 md:w-3/4 pt-4 md:pt-8 lg:pt-12 text-xl">
+        <section class="mx-auto w-11/12 md:w-3/4 pt-4 md:pt-8 lg:pt-12 text-xl">
             <h2 class="text-center text-lg md:text-xl lg:text-2xl"><b>Projects</b></h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                 <!-- The Island Project -->
@@ -119,11 +126,11 @@
                 </a>
             </div>
             <a class="mx-auto text-sm md:text-base lg:text-lg pt-2 md:pt-3 lg:pt-4 block text-blue-400"
-                href="projects.html">To view more, click on a project or
+                href="projects.html">To view more, click a project or
                 follow this link.</a>
         </section>
     </Main>
-    <footer class="flex justify-between mx-auto w-4/5 py-12 text-base md:text-lg lg:text-xl">
+    <footer class="flex justify-between mx-auto md:w-4/5 py-12 text-sm md:text-lg lg:text-xl">
         <p>&copy; 2024 Emmette Taylor</p>
         <ul class="flex flex-row space-x-3">
             <li>
