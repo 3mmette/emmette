@@ -10,11 +10,11 @@ codeButton.addEventListener('click', function() {
         codeContent.classList.remove('hidden')
         codeButton.textContent = 'Hide Coding'
         featureContent.classList.add('hidden')
-        featureButton.textContent = 'Reveal Features'
+        featureButton.textContent = 'Show Features'
     }
     else {
         codeContent.classList.add('hidden')
-        codeButton.textContent = 'Reveal Coding'
+        codeButton.textContent = 'Show Coding'
     }
 });
 
@@ -24,10 +24,10 @@ featureButton.addEventListener('click', function() {
         featureContent.classList.remove('hidden')
         featureButton.textContent = 'Hide Features'
         codeContent.classList.add('hidden')
-        codeButton.textContent = 'Reveal Coding'
+        codeButton.textContent = 'Show Coding'
     }
     else {
         featureContent.classList.add('hidden')
-        featureButton.textContent = 'Reveal Features'
+        featureButton.textContent = 'Show Features'
     }
 });

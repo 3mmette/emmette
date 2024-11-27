@@ -15,21 +15,26 @@
         <h1
             class="text-center font-semibold text-2xl md:text-3xl lg:text-4xl pt-12 md:pt-18 lg:pt-24 pb-4 md:pb-8 lg:pb-12">
             EMMETTE TAYLOR</h1>
-        <nav>
-            <ul
-                class="flex justify-center list-none space-x-2 md:space-x-3 lg:space-x-4 text-sm md:text-lg lg:text-2xl">
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="index.html">HOME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="about.html">ABOUT</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="projects.html">PROJECTS</a></li>
-                <li><a class="px-2 py-1 text-black border-b-2 border-gray-400" href="mywork.html">GAME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="resume.html">RESUME</a></li>
-                <li><a class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
-                        href="contact.html">CONTACT</a></li>
-            </ul>
+        <ul
+            class="grid grid-cols-3 gap-4 text-center text-sm md:flex md:justify-center md:space-x-2 lg:space-x-4 md:text-lg lg:text-2xl">
+            <li class="md:inline-block md:order-1"><a
+                    class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                    href="index.html">HOME</a></li>
+            <li class="md:inline-block md:order-3"><a
+                    class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                    href="projects.html">PROJECTS</a></li>
+            <li class="md:inline-block md:order-5"><a
+                    class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                    href="resume.html">RESUME</a></li>
+            <li class="md:inline-block md:order-2"><a
+                    class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                    href="about.html">ABOUT</a></li>
+            <li class="md:inline-block md:order-4"><a class="px-2 py-1 text-black border-b-2 border-gray-400"
+                    href="mywork.html">GAME</a></li>
+            <li class="md:inline-block md:order-6"><a
+                    class="px-2 py-1 text-gray-400 hover:text-black border-b-2 border-transparent hover:border-gray-400"
+                    href="contact.html">CONTACT</a></li>
+        </ul>
         </nav>
     </header>
     <Main class="mx-auto md:w-3/4 lg:w-2/3 pt-4 md:pt-8 lg:pt-12">
@@ -41,44 +46,53 @@
                 <div class="py-2 md:py-3 lg:py-4">
                     <p>You look around and realise you're on a boat</p>
                     <p class="text-center">It slowly rocks back and forth in the ocean</p>
-                    <p class="text-right">It is tied to a small jetty and beyond lies The Island</p>
+                    <p class="text-right">It is tied to a small jetty and beyond lies</p>
                 </div>
                 <img src="assets/img/island_1.png" alt="Island Game Empty Chart Image">
                 <!-- Why -->
-                <p class="pt-2 md:pt-3 lg:pt-4">This was my favorite project for many reasons.</p>
-                <ul class="list-disc pl-12">
+                <p class="pt-2 md:pt-3 lg:pt-4">This was my favorite project as:</p>
+                <ul class="list-disc pl-6 md:pl-12">
                     <li>I am an enthusiast of games in all forms — board, video and sports. To create one was amazing.
                     </li>
                     <li>The project gave me the freedom to craft an entirely new world for others to discover.</li>
-                    <li>It involved designing challenges for players and solving problems during development.</li>
+                    <li>It involved designing puzzles for players and solving problems during development.</li>
                     <li>It was something I could not only show my friends, but watch them play and enjoy it.</li>
                     <li>Utilizing Python to program the game mechanics was both challenging and rewarding.</li>
                 </ul>
                 <!-- Overview -->
                 <p class="pt-2 md:pt-3 lg:pt-4">The task was to write a simple, single player, vintage text-based
-                    adventure game in Python3
-                    using an Object Orientated Programming design. With ample free time and a genuine enthusiasm for
-                    this
-                    project, I perhaps expanded the scope a bit beyond the basic requirements.</p>
+                    adventure game in Python3 using an Object Orientated Programming design. With ample free time and a
+                    genuine enthusiasm for this project, I perhaps expanded the scope a bit beyond the basic
+                    requirements.</p>
                 <!-- Features -->
+                <p class="pt-2 md:pt-3 lg:pt-4">Final Requirements were:</p>
+                <ul class="list-disc pl-6 md:pl-12">
+                    <li>Explorable locations x 5</li>
+                    <li>Interactive Non Player Characters x 1</li>
+                    <li>Interactive items x 5</li>
+                    <li>Actions to move and interact</li>
+                    <li>A bag</li>
+                    <li>A simple map</li>
+                    <li>A way to win and lose</li>
+                </ul>
                 <p class="pt-2 md:pt-3 lg:pt-4">The game ultimately featured:</p>
-                <ul class="list-disc pl-12">
-                    <li>11 explorable locations. (Initially required 10 and finalized at 5)</li>
-                    <li>13 different action words</li>
-                    <li>3 interactive Non Player Characters. (Finalized at 1)</li>
-                    <li>Dozens of interactive items. (Initially requried 10 and finalized at 5)</li>
-                    <li>A limited bag to carry moveable items. (Added limit)</li>
-                    <li>A map showing your current and discovered locations. (Upgraded)</li>
-                    <li>An extensive help menu. (Added)</li>
-                    <li>Multiple ending for winning and losing. (Added multiple)</li>
-                    <li>Puzzles that vary with each playthrough. (Added)</li>
-                    <li>Character specializations with unique perks. (Added)</li>
-                    <li>An energy and hydration system to make players more deliberate with their movements. (Added)
-                    </li>
+                <ul class="list-disc pl-6 md:pl-12">
+                    <li>Explorable locations x 11</li>
+                    <li>Interactive Non Player Characters x 3</li>
+                    <li>Dozens of interactive items</li>
+                    <li>More than a dozen action words</li>
+                    <li>A limited bag to carry items</li>
+                    <li>A detailed map tracking locations</li>
+                    <li>Multiple ways to win and lose</li>
+                    <li>An extensive help menu</li>
+                    <li>Puzzles that change each game</li>
+                    <li>Character specializations</li>
+                    <li>An energy and hydration system</li>
                 </ul>
                 <!-- Link to play -->
-                <p class="pt-2 md:pt-3 lg:pt-4">If you would like to download and play the game for yourself,
+                <p class="pt-2 md:pt-3 lg:pt-4">To download and play
                     <a class="text-blue-400" href="https://github.com/3mmette/TheIsland"><b><u>CLICK HERE</u></b></a>
+
                 </p>
             </div>
             <!-- Warning -->
@@ -87,11 +101,11 @@
             <!-- Buttons to reveal more information -->
             <div class="grid grid-cols-2 p-2">
                 <button id="codingRevealButton" type="button"
-                    class="mx-auto w-2/3 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
-                    Reveal Coding</button>
+                    class="mx-auto w-4/5 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
+                    Show Coding</button>
                 <button id="featureRevealButton" type="button"
                     class="mx-auto w-2/3 py-2 md:py-3 lg:py-4 rounded-md bg-gray-300 hover:bg-blue-200">
-                    Reveal Features</button>
+                    Show Features</button>
             </div>
             <!-- Content on coding the game -->
             <div id="codingContent" class="hidden text-sm md:text-base">
@@ -176,7 +190,8 @@
                 <p>As you explore The Island, your current position will be indicated by an 'X' on the map, and the
                     names of
                     various locations will become known to you as you uncover them.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_11.png" alt="Island Game Partial Chart Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_11.png"
+                    alt="Island Game Partial Chart Image">
                 <!-- Help -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Help Menu</h3>
                 <p>I created a comprehensive help menu for the game to assist players. It provides a basic overview of
@@ -197,11 +212,13 @@
                     inaccessible
                     due to player choices, another path to obtain it would still be available, maintaining the game's
                     playability.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_4.png" alt="Island Game Primary Win Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_4.png"
+                    alt="Island Game Primary Win Image">
                 <p>For the secondary avenue to completing the game, I incorporated a puzzle that an observant player may
                     be
                     able to solve, rewarding those who explore and observe meticulously.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_5.png" alt="Island Game Secondary Win Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_5.png"
+                    alt="Island Game Secondary Win Image">
                 <p>There are also various ways to lose, from wandering into the ocean to solving problems
                     incorrectly, and not eating or drinking to being poisened by consuming the wrong thing.</p>
                 <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_12.png" alt="Island Game Loss Image">
@@ -215,7 +232,8 @@
                 <h3 class="text-center text-lg md:text-xl pb-1">Specialization</h3>
                 <p>To enhance the gameplay experience, I provided players with the choice of four perks to assist them
                     during their adventure on The Island.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_14.png" alt="Island Game Specialization Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_14.png"
+                    alt="Island Game Specialization Image">
                 <!-- Consumables -->
                 <h3 class="text-center text-lg md:text-xl pb-1">Consumables System</h3>
                 <p>To enhance the gameplay experience even more, I introduced energy and hydration mechanics. This
@@ -223,12 +241,13 @@
                     players to manage their resources more carefully as they explore The Island, preventing endless
                     wandering. Additionally, perks can offer advantages like extended travel capabilities or enhanced
                     knowledge about consumable items.</p>
-                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_15.png" alt="Island Game Consumables Image">
+                <img class="pt-1 md:pt-2 pb-2 md:pb-5" src="assets/img/island_15.png"
+                    alt="Island Game Consumables Image">
             </div>
         </div>
     </Main>
     <!-- Constant Footer -->
-    <footer class="flex justify-between mx-auto w-4/5 py-6 md:py-8 lg:py-12 text-md md:text-lg lg:text-xl">
+    <footer class="flex items-center justify-between mx-auto w-4/5 py-6 md:py-8 lg:py-12 text-sm md:text-lg lg:text-xl">
         <p>&copy; 2024 Emmette Taylor</p>
         <ul class="flex flex-row space-x-3">
             <li>
